@@ -29,7 +29,7 @@ export default function PrivacyPolicy() {
         法令に基づく場合を除き、ユーザーの同意なく第三者に個人情報を提供することはありません。
       </p>
       <h2 className='mb-4 bg-gray-100 p-2 text-base'>5. プライバシーポリシーの変更</h2>
-      <p className='mb-4'>
+      <p className='mb-10'>
         当サービスは、必要に応じて本ポリシーを変更することがあります。変更後のポリシーは、本ページで公開された時点で効力を生じるものとします。
       </p>
       <p className='text-center'>
