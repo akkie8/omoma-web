@@ -20,7 +20,7 @@ export default function CompanyInfo() {
       </p>
 
       <h2 className='mb-2 text-sm'>連絡先</h2>
-      <p className='mb-10 border-b pb-5'>
+      <p className='mb-20 border-b pb-5'>
         メールアドレス: info@moodify.com
         <br />
         ※お問い合わせはメールでのみ受け付けております。
