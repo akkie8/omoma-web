@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
 export default function LegalNotice() {
   return (
@@ -32,14 +33,14 @@ export default function LegalNotice() {
       </p>
 
       <h2 className='mb-2 text-sm'>返品・キャンセルについて</h2>
-      <p className='mb-5 border-b pb-5'>
+      <p className='mb-10 border-b pb-5'>
         デジタルコンテンツの性質上、購入後のキャンセル・返品はお受けできません。
       </p>
 
       <p className='text-center'>
-        <Link href='/' className='text-blue-600 hover:underline'>
-          ホームに戻る
-        </Link>
+        <Button size='lg'>
+          <Link href='/'>ホームに戻る</Link>
+        </Button>
       </p>
     </div>
   );

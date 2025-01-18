@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { Button } from '@/components/ui/button';
 
 export default function CompanyInfo() {
   return (
@@ -19,16 +20,16 @@ export default function CompanyInfo() {
       </p>
 
       <h2 className='mb-2 text-sm'>連絡先</h2>
-      <p className='mb-5 border-b pb-5'>
+      <p className='mb-10 border-b pb-5'>
         メールアドレス: info@moodify.com
         <br />
         ※お問い合わせはメールでのみ受け付けております。
       </p>
 
       <p className='text-center'>
-        <Link href='/' className='text-blue-600 hover:underline'>
-          ホームに戻る
-        </Link>
+        <Button size='lg'>
+          <Link href='/'>ホームに戻る</Link>
+        </Button>
       </p>
     </div>
   );
