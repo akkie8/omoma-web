@@ -27,9 +27,9 @@ export default function CompanyInfo() {
       </p>
 
       <p className='text-center'>
-        <Link href='/'>
-          <Button size='lg'>ホームに戻る</Button>
-        </Link>
+        <Button size='lg'>
+          <Link href='/'>ホームに戻る</Link>
+        </Button>
       </p>
     </div>
   );

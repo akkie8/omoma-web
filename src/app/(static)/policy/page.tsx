@@ -33,9 +33,9 @@ export default function PrivacyPolicy() {
         当サービスは、必要に応じて本ポリシーを変更することがあります。変更後のポリシーは、本ページで公開された時点で効力を生じるものとします。
       </p>
       <p className='text-center'>
-        <Link href='/'>
-          <Button size='lg'>ホームに戻る</Button>
-        </Link>
+        <Button size='lg'>
+          <Link href='/'>ホームに戻る</Link>
+        </Button>
       </p>
     </div>
   );

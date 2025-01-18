@@ -33,9 +33,9 @@ export default function TermsOfService() {
         当サービスは、ユーザーに通知することなく、本サービスの内容を変更しまたは本サービスの提供を中止することができるものとし、これによってユーザーに生じた損害について一切の責任を負いません。
       </p>
       <p className='text-center'>
-        <Link href='/'>
-          <Button size='lg'>ホームに戻る</Button>
-        </Link>
+        <Button size='lg'>
+          <Link href='/'>ホームに戻る</Link>
+        </Button>
       </p>
     </div>
   );
